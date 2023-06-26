@@ -28,7 +28,7 @@ The Company Mention Finder relies on the following libraries:
 
 Here are some possible improvements that could be made to enhance the functionality and maintainability of the Company Mention Finder:
 
-1. **Command-line Arguments**: Modify the application to accept command-line arguments, allowing users to specify the CSV file path and XML folder path instead of hardcoding them.
+1. **Command-line Arguments**: +
 2. **Error Handling**: Implement more robust error handling and reporting. Currently, errors are printed to the console, but a more user-friendly error message or logging mechanism could be added.
 3. **Input Validation**: Validate the input data (CSV file, XML files) to ensure they conform to expected formats and handle edge cases gracefully.
 4. **Multithreading Optimization**: Experiment with different thread pool sizes and optimization techniques to improve the performance of processing XML files concurrently.
